@@ -90,7 +90,7 @@ function Navbar({ toggle }) {
                 Reviews
               </LinkS>
             </li>
-            <li
+            {/* <li
               className={active ? "active nav-item" : "nav-item"}
               onClick={activeC}
             >
@@ -105,7 +105,7 @@ function Navbar({ toggle }) {
               >
                 Team
               </LinkS>
-            </li>
+            </li> */}
           </ul>
           <div className='nav-btn'>
             <a className='nav-btn-link' href='tel:+917972872410'>

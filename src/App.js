@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import About from "./components/About us/About";
+import Footer from "./components/Footer/Footer";
 import HeroSection from "./components/HeroSection/HeroSection";
 import Menu from "./components/Menu/Menu";
 import Navbar from "./components/Navbar/Navbar";
@@ -22,7 +23,8 @@ function App() {
       <About />
       <Menu />
       <Testamonials />
-      <Teams />
+      {/* <Teams /> */}
+      <Footer />
     </>
   );
 }

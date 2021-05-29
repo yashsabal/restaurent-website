@@ -80,3 +80,12 @@
   font-weight: bolder;
   text-transform: capitalize;
 }
+@media (max-width: 768px) {
+  .about-text,
+  .about-img {
+    width: 100%;
+  }
+  .about-img {
+    margin-top: 40px;
+  }
+}

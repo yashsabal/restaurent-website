@@ -37,9 +37,9 @@ function Sidebar({ isOpen, toggle }) {
               spy={true}
               exact='true'
               offset={-80}
-              to='projects'
+              to='menu'
             >
-              Projects
+              Menu
             </LinkS>
           </li>
           <li className='sidebar-links'>
@@ -50,9 +50,9 @@ function Sidebar({ isOpen, toggle }) {
               spy={true}
               exact='true'
               offset={-80}
-              to='services'
+              to='reviews'
             >
-              Services
+              Reviews
             </LinkS>
           </li>
         </ul>

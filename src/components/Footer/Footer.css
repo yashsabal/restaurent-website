@@ -1,0 +1,71 @@
+.footer {
+  padding: 80px 0 0;
+  background: url("https://thumbs.dreamstime.com/b/asian-food-background-various-ingredients-rustic-stone-top-view-vietnam-thai-cuisine-148762904.jpg")
+    fixed center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+.footer::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  opacity: 0.7;
+  z-index: -1;
+}
+.footer-item {
+  width: calc(100% / 3);
+  padding: 0 15px;
+  text-align: center;
+}
+.footer-item h3 {
+  text-transform: capitalize;
+  font-size: 22px;
+  margin: 0 0 15px;
+}
+.footer-item p {
+  line-height: 30px;
+}
+.footer-item .social-links {
+  margin-top: 15px;
+}
+.footer-item .social-links a {
+  display: inline-flex;
+  height: 35px;
+  width: 35px;
+  color: white;
+  font-size: 22px;
+  align-items: center;
+  justify-content: center;
+  margin: 14px 20px;
+}
+.footer-item .social-links .ig:hover {
+  color: rgb(238, 87, 238);
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+.footer-item .social-links .fb:hover {
+  color: rgb(87, 90, 238);
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+.footer .copyright {
+  margin: 80px 0 0;
+  width: 100%;
+  text-align: center;
+  padding: 25px 15px;
+  font-size: 14px;
+  border-top: 1px solid lightgray;
+}
+@media (max-width: 768px) {
+  .footer-item {
+    width: 100%;
+  }
+  .footer-item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}

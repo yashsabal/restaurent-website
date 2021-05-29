@@ -95,3 +95,14 @@ img {
   background: #eaa023;
   color: #fff;
 }
+@media (max-width: 768px) {
+  .home-text h1 {
+    font-size: 50px;
+    line-height: 65px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+}
+@media (max-width: 768px) {
+}

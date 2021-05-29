@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "../HeroSection/HeroSection.css";
 import "../About us/About.css";
 import "./Menu.css";
+import Dishes from "../Filter/Dishes";
 
 function Menu() {
+  const [filter, SetFilter] = useState("lunch");
+  const [active, setActive] = useState(false);
+
+  const activeC = (e) => setActive(true);
   return (
     <>
       <section className='menu-section min-vh-100 sec-padding' id='menu'>
@@ -14,20 +19,35 @@ function Menu() {
             </div>
           </div>
           <div className='row'>
-            <div className='menu-tabs'>
-              <button type='button' className='menu-tab-item' data-target=''>
+            <ul className='menu-tabs'>
+              <li
+                className={active ? "active menu-tab-item" : "menu-tab-item"}
+                onClick={() => SetFilter("lunch")}
+              >
                 lunch
-              </button>
-              <button type='button' className='menu-tab-item' data-target=''>
+              </li>
+              <li
+                className={active ? "active menu-tab-item" : "menu-tab-item"}
+                onClick={() => SetFilter("dinner")}
+              >
                 dinner
-              </button>
-              <button type='button' className='menu-tab-item' data-target=''>
+              </li>
+              <li
+                className={active ? "active menu-tab-item" : "menu-tab-item"}
+                onClick={() => SetFilter("drink")}
+              >
                 drinks
-              </button>
-              <button type='button' className='menu-tab-item' data-target=''>
+              </li>
+              <li
+                className={active ? "active menu-tab-item" : "menu-tab-item"}
+                onClick={() => SetFilter("desserts")}
+              >
                 desserts
-              </button>
-            </div>
+              </li>
+            </ul>
+          </div>
+          <div className='row menu-tab-content' id='lunch'>
+            <Dishes filter={filter} SetFilter={SetFilter} />
           </div>
         </div>
       </section>

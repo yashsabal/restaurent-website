@@ -20,7 +20,7 @@ function Teams() {
                 alt=''
               />
               <div className='team-item-info'>
-                <h2>raj champal</h2>
+                <h3>raj champal</h3>
                 <p>head chef</p>
               </div>
             </div>
@@ -30,7 +30,7 @@ function Teams() {
                 alt=''
               />
               <div className='team-item-info'>
-                <h2>raj champal</h2>
+                <h3>raj champal</h3>
                 <p>head chef</p>
               </div>
             </div>
@@ -40,7 +40,7 @@ function Teams() {
                 alt=''
               />
               <div className='team-item-info'>
-                <h2>raj champal</h2>
+                <h3>raj champal</h3>
                 <p>head chef</p>
               </div>
             </div>

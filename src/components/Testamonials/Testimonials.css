@@ -10,6 +10,11 @@
   border-radius: 8px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.35);
 }
+@media (max-width: 768px) {
+  .testi-item {
+    width: 100%;
+  }
+}
 .testi-author {
   display: flex;
   justify-content: space-between;
