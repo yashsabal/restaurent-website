@@ -45,7 +45,8 @@
   margin-left: 18px;
   font-weight: bold;
   text-decoration: none;
-  font-family: "Squada One", cursive;
+  letter-spacing: 2px;
+  font-family: "Pattaya", sans-serif;
 }
 .logo {
   height: 120px;

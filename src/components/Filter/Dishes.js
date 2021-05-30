@@ -5,7 +5,7 @@ import "../About us/About.css";
 import "../Menu/Menu.css";
 import Data from "../Filter/Data";
 
-function Dishes({ filter, SetFilter }) {
+function Dishes({ filter }) {
   return (
     <>
       {Data.filter((val) => {

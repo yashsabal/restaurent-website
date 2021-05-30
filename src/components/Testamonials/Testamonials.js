@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../HeroSection/HeroSection.css";
 import "../About us/About.css";
 import "./Testimonials.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 function Testamonials() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <>
       <section
@@ -15,7 +21,7 @@ function Testamonials() {
           </div>
         </div>
         <div className='row'>
-          <div className='testi-item'>
+          <div className='testi-item' data-aos='fade-right'>
             <div className='testi-author'>
               <div className='testi-author-name'>
                 <h3>raj champal</h3>
@@ -35,7 +41,7 @@ function Testamonials() {
             </p>
             <div className='testi-ratings'>⭐⭐⭐⭐⭐</div>
           </div>
-          <div className='testi-item'>
+          <div className='testi-item' data-aos='fade-right'>
             <div className='testi-author'>
               <div className='testi-author-name'>
                 <h3>raj champal</h3>
@@ -55,7 +61,7 @@ function Testamonials() {
             </p>
             <div className='testi-ratings'>⭐⭐⭐⭐⭐</div>
           </div>
-          <div className='testi-item'>
+          <div className='testi-item' data-aos='fade-right'>
             <div className='testi-author'>
               <div className='testi-author-name'>
                 <h3>raj champal</h3>

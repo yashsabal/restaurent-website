@@ -2,70 +2,71 @@ export default [
   {
     id: 1,
     image:
-      "https://www.tasteofhome.com/wp-content/uploads/2021/01/tasty-butter-chicken-curry-dish-from-indian-cuisine-1277362334.jpg",
-    title: "Tips and tricks to write good code",
+      "https://user-images.githubusercontent.com/64243059/120100679-dbceec80-c139-11eb-95b0-9d7e365b8356.PNG",
+    title: "classic cheese loaded pizza",
     category: "lunch",
   },
   {
     id: 2,
-    image: "https://s3.envato.com/files/299635531/DSC_4935.jpg",
-    title: "How to use Search Engine Optimisation",
+    image:
+      "https://user-images.githubusercontent.com/64243059/120100712-08830400-c13a-11eb-8026-385281863732.PNG",
+    title: "classic sandwich",
     category: "lunch",
   },
   {
     id: 3,
     image:
-      "https://thumbs.dreamstime.com/z/indian-vegetarian-meal-north-indian-main-course-indian-veg-meal-consisting-dal-fry-lentils-along-fried-potatoes-112712018.jpg",
+      "https://user-images.githubusercontent.com/64243059/120100719-16d12000-c13a-11eb-9241-5532e3e06f8a.PNG",
     title: "10 Tricks and Tips in Python",
     category: "lunch",
   },
   {
     id: 4,
     image:
-      "https://i.pinimg.com/originals/c0/42/18/c04218daf4d5aea38de2d82344a28824.jpg",
+      "https://user-images.githubusercontent.com/64243059/120100750-50099000-c13a-11eb-8dc2-1dc02485482c.PNG",
     title: "How to transition from Unreal Engine to Unity in simple steps",
     category: "lunch",
   },
   {
     id: 5,
     image:
-      "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/249668.jpg?output-format=auto&output-quality=auto",
-    title: "I think Fortnite is dead",
-    category: "dinner",
+      "https://user-images.githubusercontent.com/64243059/120100668-cce83a00-c139-11eb-9f65-4739919fbf4f.PNG",
+    title: "Drinks of love",
+    category: "drink",
   },
   {
     id: 6,
     image:
-      "https://www.thasneen.com/cooking/wp-content/uploads/2017/12/Instant-Pot-4-minutes-pasta.jpg",
-    title: "Tips and tricks to write good code",
-    category: "dinner",
+      "https://user-images.githubusercontent.com/64243059/120100645-b0e49880-c139-11eb-9779-adeb500fc4c1.PNG",
+    title: "virgin mojhito",
+    category: "drink",
   },
   {
     id: 7,
     image:
-      "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chorizo-mozarella-gnocchi-bake-cropped-9ab73a3.jpg?quality=90&resize=700%2C636",
-    title: "Tips and tricks to write good code",
+      "https://user-images.githubusercontent.com/64243059/120100619-8d215280-c139-11eb-96d7-7e248435013e.PNG",
+    title: "Red Blue Orange",
     category: "drink",
   },
   {
     id: 8,
     image:
-      "https://www.desiblitz.com/wp-content/uploads/2015/02/veg-dishes-tasty.jpg",
-    title: "Tips and tricks to write good code",
-    category: "desserts",
+      "https://user-images.githubusercontent.com/64243059/120100660-bfcb4b00-c139-11eb-90cb-c4eef74b61b4.PNG",
+    title: "Party food",
+    category: "special",
   },
   {
     id: 9,
     image:
-      "https://c.ndtvimg.com/2020-06/qc8ndie_rajma-sandwich_625x300_04_June_20.jpg",
-    title: "Tips and tricks to write good code",
-    category: "desserts",
+      "https://user-images.githubusercontent.com/64243059/120100734-349e8500-c13a-11eb-8e0a-181d5975e256.PNG",
+    title: "Pizza & sandwich combo",
+    category: "special",
   },
   {
     id: 10,
     image:
-      "https://loveincorporated.blob.core.windows.net/contentimages/gallery/3be0b2ab-1932-4ced-bc80-b684e9e3f6d7-12-pad-thai.jpg",
-    title: "Tips and tricks to write good code",
-    category: "desserts",
+      "https://user-images.githubusercontent.com/64243059/120100759-5bf55200-c13a-11eb-8e6f-8a911600a7f3.PNG",
+    title: "Bread crumbs",
+    category: "special",
   },
 ];

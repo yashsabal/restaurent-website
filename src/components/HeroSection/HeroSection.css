@@ -69,8 +69,9 @@ img {
 .home-text h1 {
   font-size: 60px;
   color: #fff;
-  font-family: "Squada One", cursive;
+  font-family: "Pattaya", sans-serif;
   line-height: 75px;
+  letter-spacing: 2px;
   margin: 0 0 5px;
 }
 .home-text p {

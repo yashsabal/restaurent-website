@@ -1,8 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../HeroSection/HeroSection.css";
 import "./About.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function About() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <>
       <section className='about-section min-vh-100 sec-padding' id='about'>
@@ -34,10 +39,10 @@ function About() {
               </a>
             </div>
             <div className='about-img'>
-              <div className='img-box'>
-                <h3>20+ year's of experience</h3>
+              <div className='img-box' data-aos='fade-left'>
+                <h2>We believe Food Is Important</h2>
                 <img
-                  src='https://img.freepik.com/free-photo/top-view-circular-food-frame_23-2148723455.jpg?size=626&ext=jpg&ga=GA1.2.1214810501.1608681600'
+                  src='https://user-images.githubusercontent.com/64243059/120100626-9c080500-c139-11eb-828f-fd894a99ff2c.PNG'
                   alt=''
                   className='about img'
                 />

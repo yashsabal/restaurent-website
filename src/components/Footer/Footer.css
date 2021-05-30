@@ -62,6 +62,9 @@
   border-top: 1px solid lightgray;
 }
 @media (max-width: 768px) {
+  .footer {
+    background-attachment: local;
+  }
   .footer-item {
     width: 100%;
   }
