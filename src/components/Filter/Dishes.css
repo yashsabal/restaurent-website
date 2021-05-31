@@ -5,6 +5,7 @@
   align-items: center;
   justify-content: space-between;
 }
+
 .menu-item:hover .menu-item-title h3 {
   color: #eaa023;
   transition: color 0.4s ease;
@@ -34,6 +35,11 @@
     width: 100%;
   }
   .menu-item:nth-last-of-type(2):after {
-    border-bottom: 2px dashed #191f3a;
+    border-bottom: 2px dashed lime;
+  }
+}
+@media (max-width: 1000px) {
+  .menu-item {
+    width: 100%;
   }
 }

@@ -111,7 +111,7 @@ function Navbar({ toggle }) {
             <a className='nav-btn-link' href='tel:+917972872410'>
               Contact Me
             </a>
-            <a className='nav-btn-link' href='mailto:yashsabal716@gmail.com'>
+            <a className='nav-btn-link E' href='mailto:yashsabal716@gmail.com'>
               E-mail
             </a>
           </div>

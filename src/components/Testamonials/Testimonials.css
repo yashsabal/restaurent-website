@@ -10,11 +10,7 @@
   border-radius: 8px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.35);
 }
-@media (max-width: 768px) {
-  .testi-item {
-    width: 100%;
-  }
-}
+
 .testi-author {
   display: flex;
   justify-content: space-between;
@@ -41,9 +37,23 @@
 .testi-item:hover .testi-author img {
   border-color: #eaa023;
 }
+.testi-item:hover {
+  box-shadow: 0 6px 8px rgb(54, 54, 54);
+  transform: scale(1.05);
+}
 .testi-item p {
   margin: 30px 0;
 }
 .testi-ratings {
   margin: 15px 0;
+}
+@media (max-width: 768px) {
+  .testi-item {
+    width: 100%;
+  }
+}
+@media (max-width: 1000px) {
+  .testi-item {
+    width: 100%;
+  }
 }

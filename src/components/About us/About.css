@@ -89,3 +89,12 @@
     margin-top: 40px;
   }
 }
+@media screen and (max-width: 1000px) {
+  .about-text,
+  .about-img {
+    width: 100%;
+  }
+  .about-img {
+    margin-top: 40px;
+  }
+}
