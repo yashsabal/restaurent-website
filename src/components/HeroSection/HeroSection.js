@@ -11,19 +11,19 @@ function HeroSection() {
     <>
       <section className='home-section' id='home'>
         <img
-          src='https://user-images.githubusercontent.com/64243059/120100641-a88c5d80-c139-11eb-9331-dc19b5a6835c.PNG'
+          src='https://lh5.googleusercontent.com/p/AF1QipPqAZbtzJe5crYzseba67lSwd9Rmu7qX_IQcI1V'
           className='home-bg'
         />
         <div className='container'>
           <div className='row min-vh-100'>
             <div className='home-text' data-aos='fade-up'>
-              <h1>Cravers cafe</h1>
+              <h1>Crostino cafe</h1>
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Quaerat rem tempore eligendi corporis consequatur.
               </p>
               <a href='' className='btn btn-default'>
-                Over Menu
+                Our Menu
               </a>
             </div>
           </div>

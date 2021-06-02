@@ -19,7 +19,7 @@ function About() {
           </div>
           <div className='row row2'>
             <div className='about-text'>
-              <h3>Welcome to craver's cafe</h3>
+              <h3>Welcome to crostino cafe</h3>
               <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad
                 cupiditate culpa dicta illum exercitationem quas. Lorem ipsum

@@ -36,7 +36,7 @@ function Navbar({ toggle }) {
             to='home'
             className='nav-logo'
           >
-            Cravers
+            Crostino
           </LinkS>
           <div className='mobile-icon' onClick={toggle}>
             <FaBars />
@@ -53,7 +53,7 @@ function Navbar({ toggle }) {
                 duration={500}
                 spy={true}
                 exact='true'
-                offset={-80}
+                offset={80}
               >
                 About
               </LinkS>
@@ -109,7 +109,7 @@ function Navbar({ toggle }) {
           </ul>
           <div className='nav-btn'>
             <a className='nav-btn-link' href='tel:+917972872410'>
-              Contact Me
+              Contact Us
             </a>
             <a className='nav-btn-link E' href='mailto:yashsabal716@gmail.com'>
               E-mail
