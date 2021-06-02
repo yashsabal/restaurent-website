@@ -2,6 +2,7 @@
   /* background: #eaa023; */
   position: relative;
   overflow: hidden;
+  overflow-x: hidden;
 }
 .home-section::before {
   content: "";

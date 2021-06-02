@@ -1,5 +1,6 @@
 .about-section {
   background: #191f3a;
+  overflow-x: hidden;
 }
 .sec-padding {
   padding: 80px 0;

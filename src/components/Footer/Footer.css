@@ -5,6 +5,7 @@
   background-size: cover;
   position: relative;
   z-index: 1;
+  overflow-x: hidden;
 }
 .footer::before {
   content: "";

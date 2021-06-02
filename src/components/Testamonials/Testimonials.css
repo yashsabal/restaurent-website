@@ -1,6 +1,7 @@
 .testimonials-section {
   background: #191f3a;
   padding-bottom: 50px;
+  overflow-x: hidden;
 }
 .testi-item {
   width: calc((100% / 3) - 30px);

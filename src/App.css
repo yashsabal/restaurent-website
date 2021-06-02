@@ -10,8 +10,9 @@
 body {
   line-height: 1.5;
   color: whitesmoke;
-  overflow-x: hidden;
-  /* width: 100%; */
+  /* overflow-x: hidden; */
+  width: 100%;
+  display: flex;
 }
 html {
   overflow-x: hidden;

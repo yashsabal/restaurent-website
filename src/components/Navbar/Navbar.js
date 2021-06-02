@@ -53,7 +53,7 @@ function Navbar({ toggle }) {
                 duration={500}
                 spy={true}
                 exact='true'
-                offset={80}
+                offset={-80}
               >
                 About
               </LinkS>

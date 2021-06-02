@@ -1,5 +1,6 @@
 .menu-section {
   background: #0c1023;
+  overflow-x: hidden;
 }
 .menu-section .section-title {
   margin-bottom: 40px;
