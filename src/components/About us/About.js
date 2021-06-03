@@ -42,7 +42,7 @@ function About() {
               <div className='img-box' data-aos='fade-left'>
                 <h2>We believe Food Is Important</h2>
                 <img
-                  src='https://user-images.githubusercontent.com/64243059/120100626-9c080500-c139-11eb-828f-fd894a99ff2c.PNG'
+                  src='https://user-images.githubusercontent.com/64243059/120635880-dc7ec000-c464-11eb-8fc4-5f6caeb08d3b.PNG'
                   alt=''
                   className='about img'
                 />
