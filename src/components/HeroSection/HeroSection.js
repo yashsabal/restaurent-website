@@ -11,13 +11,13 @@ function HeroSection() {
     <>
       <section className='home-section' id='home'>
         <img
-          src='https://lh5.googleusercontent.com/p/AF1QipPqAZbtzJe5crYzseba67lSwd9Rmu7qX_IQcI1V'
+          src='https://user-images.githubusercontent.com/64243059/123098305-ec1c7380-d428-11eb-926a-d1a9d3b98d22.PNG'
           className='home-bg'
         />
         <div className='container'>
           <div className='row min-vh-100'>
             <div className='home-text' data-aos='fade-up'>
-              <h1>Crostino cafe</h1>
+              <h1>Signature cafe</h1>
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Quaerat rem tempore eligendi corporis consequatur.
