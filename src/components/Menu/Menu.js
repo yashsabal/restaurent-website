@@ -22,7 +22,7 @@ function Menu() {
             </div>
           </div>
           <div className='row'>
-            <ul className='menu-tabs'>
+            {/*<ul className='menu-tabs'>
               <li className='menu-tab-item' onClick={() => SetFilter("lunch")}>
                 Menu
               </li>
@@ -35,10 +35,10 @@ function Menu() {
               <li className='menu-tab-item' onClick={() => SetFilter("drink")}>
                 drinks
               </li>
-              {/* <li className='menu-tab-item' onClick={() => SetFilter("place")}>
+               <li className='menu-tab-item' onClick={() => SetFilter("place")}>
                 place
-              </li> */}
-            </ul>
+              </li> 
+            </ul>*/}
           </div>
           <div className='row menu-tab-content' id='lunch' data-aos='flip-up'>
             <Dishes filter={filter} SetFilter={SetFilter} />

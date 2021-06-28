@@ -19,30 +19,32 @@ function About() {
           </div>
           <div className='row row2'>
             <div className='about-text'>
-              <h3>Welcome to crostino cafe</h3>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad
-                cupiditate culpa dicta illum exercitationem quas. Lorem ipsum
-                dolor sit amet, consectetur adipisicing elit. Nemo, maiores.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis,
-                atque!
-              </p>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad
-                cupiditate culpa dicta illum exercitationem quas. Lorem ipsum
-                dolor sit amet, consectetur adipisicing elit. Nemo, maiores.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Pariatur maxime ipsa veniam?
-              </p>
+              <h3>Why one should choose our chai?</h3>
+              <li>
+                Every sip of our Chai & Coffee you drink with us will remind you
+                of the taste Mumma ke Hath ki Chai!!
+              </li>
+              <li>
+                Our Chai is made of Mineral Water, Rich Milk, Premium Chai Patti
+                (Tea Leaf) with some Great Spices & natural Ingredients like
+                Ginger, Cardamom, Dal-chini, Lavang etc.
+              </li>
+              <li>
+                By serving Chai in Kulhad, We provide your drink Desi Touch!!
+              </li>
+              <li>
+                We use Sulfurless Sugar, which keeps your body away from harmful
+                So2.
+              </li>
               <a href='#' className='btn'>
                 Check Our Menu
               </a>
             </div>
             <div className='about-img'>
               <div className='img-box' data-aos='fade-left'>
-                <h2>We believe Food Is Important</h2>
+                <h2>Without 'chai' life's incomplete</h2>
                 <img
-                  src='https://user-images.githubusercontent.com/64243059/120635880-dc7ec000-c464-11eb-8fc4-5f6caeb08d3b.PNG'
+                  src='https://pipingpotcurry.com/wp-content/uploads/2019/05/How-to-make-Masala-Chai-Piping-Pot-Curry-500x375.jpg'
                   alt=''
                   className='about img'
                 />

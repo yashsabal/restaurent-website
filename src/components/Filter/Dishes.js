@@ -17,7 +17,7 @@ function Dishes({ filter }) {
               <img src={val.image} />
               <h3>{val.title}</h3>
             </div>
-            <div className='menu-item-price'>$40.00</div>
+            <div className='menu-item-price'>{val.price}</div>
           </div>
         );
       })}

@@ -24,28 +24,30 @@ function Testamonials() {
           <div className='testi-item' data-aos='fade-right'>
             <div className='testi-author'>
               <div className='testi-author-name'>
-                <h3>raj champal</h3>
-                <span>food specialists</span>
+                <h3>Akshay Darode</h3>
+                <span>Local Guide</span>
               </div>
               <div className='testi-author-img'>
                 <img
-                  src='https://rapidapi-prod-apis.s3.amazonaws.com/b42aa17d-8ae0-4a28-b29f-587af5454390.png'
+                  src='https://lh3.googleusercontent.com/a-/AOh14GjywBM04zWZ0MYUDODDJbqxnqdmIolMEz5bQ5i2OA=w60-h60-p-rp-mo-ba4-br100'
                   alt=''
                 />
               </div>
             </div>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-              harum suscipit, tenetur blanditiis iusto id et quos eius eligendi
-              ipsa incidunt, in vel!
+              Nice Place for spending some quality time with friends and soul
+              mates with one cup of coffee.... Rates are very economical and the
+              quality also good. Place is not so big... but the setting
+              arrangement is good... you can enjoy your coffee or tea with
+              outside atmosphere... but private space are not available here.
             </p>
             <div className='testi-ratings'>⭐⭐⭐⭐⭐</div>
           </div>
           <div className='testi-item' data-aos='fade-right'>
             <div className='testi-author'>
               <div className='testi-author-name'>
-                <h3>raj champal</h3>
-                <span>food specialists</span>
+                <h3>Vaibhav pradan</h3>
+                <span>Local Guide</span>
               </div>
               <div className='testi-author-img'>
                 <img
@@ -55,31 +57,30 @@ function Testamonials() {
               </div>
             </div>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-              harum suscipit, tenetur blanditiis iusto id et quos eius eligendi
-              ipsa incidunt, in vel!
+              The tea and coffee options are just awesome. The sandwiches are
+              also good. The cold coffee I like the most. The chai villa is best
+              option for chai lovers
             </p>
-            <div className='testi-ratings'>⭐⭐⭐⭐⭐</div>
+            <div className='testi-ratings'>⭐⭐⭐⭐</div>
           </div>
           <div className='testi-item' data-aos='fade-right'>
             <div className='testi-author'>
               <div className='testi-author-name'>
-                <h3>raj champal</h3>
-                <span>food specialists</span>
+                <h3>MD Nyaz</h3>
+                <span>Local Guide</span>
               </div>
               <div className='testi-author-img'>
                 <img
-                  src='https://rapidapi-prod-apis.s3.amazonaws.com/b42aa17d-8ae0-4a28-b29f-587af5454390.png'
+                  src='https://lh3.googleusercontent.com/a-/AOh14GhL4lwYF5P3SWTKxa--vUr61BHvlSD19w6KKqjCvQ=w60-h60-p-rp-mo-ba4-br100'
                   alt=''
                 />
               </div>
             </div>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-              harum suscipit, tenetur blanditiis iusto id et quos eius eligendi
-              ipsa incidunt, in vel!
+              Nice taste, prompt service and the price was great. everyone
+              should try this place atleast one's if they are in nagpur.{" "}
             </p>
-            <div className='testi-ratings'>⭐⭐⭐⭐⭐</div>
+            <div className='testi-ratings'>⭐⭐⭐⭐</div>
           </div>
         </div>
       </section>

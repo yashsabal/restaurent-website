@@ -2,30 +2,33 @@ export default [
   {
     id: 1,
     image:
-      "https://user-images.githubusercontent.com/64243059/120100679-dbceec80-c139-11eb-95b0-9d7e365b8356.PNG",
-    title: "classic cheese loaded pizza",
+      "https://im.whatshot.in/img/2019/Sep/shutterstock-675084019-1-cropped-1567681752.jpg",
+    title: "special chai",
     category: "lunch",
+    price: "10/-",
   },
   {
     id: 2,
     image:
-      "https://user-images.githubusercontent.com/64243059/120100712-08830400-c13a-11eb-8026-385281863732.PNG",
-    title: "classic sandwich",
+      "https://s3.ap-south-1.amazonaws.com/mumbai.urbanpiper.com/media/bizmedia/2020/02/27/lemon_chai_RESIZED_RESIZED_RESIZED.jpg",
+    title: "lemon chai",
     category: "lunch",
+    price: "8/-",
   },
   {
     id: 3,
-    image:
-      "https://user-images.githubusercontent.com/64243059/120100719-16d12000-c13a-11eb-9241-5532e3e06f8a.PNG",
-    title: "10 Tricks and Tips in Python",
+    image: "http://www.ndtv.com/cooks/images/instant-coffee_med.jpg",
+    title: "hot coffee",
     category: "lunch",
+    price: "20/-",
   },
   {
     id: 4,
     image:
-      "https://user-images.githubusercontent.com/64243059/120100750-50099000-c13a-11eb-8dc2-1dc02485482c.PNG",
-    title: "How to transition from Unreal Engine to Unity in simple steps",
+      "https://mytastycurry.com/wp-content/uploads/2017/04/cold-coffee-recipe-best.jpg",
+    title: "cold coffee",
     category: "lunch",
+    price: "30/-",
   },
   {
     id: 5,

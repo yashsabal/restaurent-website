@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import "./HeroSection.css";
+import { Link as LinkS } from "react-scroll";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -11,20 +12,28 @@ function HeroSection() {
     <>
       <section className='home-section' id='home'>
         <img
-          src='https://user-images.githubusercontent.com/64243059/123098305-ec1c7380-d428-11eb-926a-d1a9d3b98d22.PNG'
+          src='https://image.freepik.com/free-vector/dark-abstract-background-texture-with-diagonal-lines_43969-660.jpg'
           className='home-bg'
         />
         <div className='container'>
           <div className='row min-vh-100'>
             <div className='home-text' data-aos='fade-up'>
-              <h1>Signature cafe</h1>
+              <h1>Chai Villa</h1>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Quaerat rem tempore eligendi corporis consequatur.
+                we serve hygenic & hand made chai in best quality mobile
+                containers.
               </p>
-              <a href='' className='btn btn-default'>
+              <LinkS
+                smooth={true}
+                duration={800}
+                spy={true}
+                exact='true'
+                offset={-80}
+                to='menu'
+                className='btn btn-default'
+              >
                 Our Menu
-              </a>
+              </LinkS>
             </div>
           </div>
         </div>

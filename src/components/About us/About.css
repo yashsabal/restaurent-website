@@ -37,9 +37,9 @@
   font-family: "Pattaya", sans-serif;
   letter-spacing: 4px;
 }
-.about-text p {
+.about-text li {
   font-size: 16px;
-  margin: 0 0 15px;
+  margin: 0 0 20px;
 }
 .btn {
   margin: 15px 0 0;
@@ -75,7 +75,7 @@
   top: 50%;
   color: #191f3a;
   width: 100%;
-  max-width: 250px;
+  max-width: 260px;
   text-align: center;
   transform: translate(-50%, -50%);
   font-size: 18px;

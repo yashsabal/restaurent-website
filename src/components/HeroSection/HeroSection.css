@@ -78,6 +78,7 @@ img {
 .home-text p {
   margin: 0 0 30px;
   color: #fff;
+  font-size: 24px;
 }
 .btn {
   display: inline-block;
@@ -96,6 +97,7 @@ img {
 .btn:hover {
   background: #eaa023;
   color: #fff;
+  cursor: pointer;
 }
 @media (max-width: 768px) {
   .home-text h1 {

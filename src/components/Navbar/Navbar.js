@@ -36,7 +36,7 @@ function Navbar({ toggle }) {
             to='home'
             className='nav-logo'
           >
-            Signature
+            Chai Villa
           </LinkS>
           <div className='mobile-icon' onClick={toggle}>
             <FaBars />
