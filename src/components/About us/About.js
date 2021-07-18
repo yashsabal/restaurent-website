@@ -2,6 +2,8 @@ import React, { useEffect } from "react";
 import "../HeroSection/HeroSection.css";
 import "./About.css";
 import Aos from "aos";
+import { Link as LinkS } from "react-scroll";
+import img from "../../images/about.jpg";
 import "aos/dist/aos.css";
 
 function About() {
@@ -19,35 +21,32 @@ function About() {
           </div>
           <div className='row row2'>
             <div className='about-text'>
-              <h3>Why one should choose our chai?</h3>
+              <h3>Why one should choose our food?</h3>
               <li>
-                Every sip of our Chai & Coffee you drink with us will remind you
-                of the taste Mumma ke Hath ki Chai!!
+                we serve love infused with flavours you cant resist drooling
+                over!
               </li>
+              <li>we prepare your meal while you grill(at gym, ofcourse)!</li>
+              <li>one solution for your fitness goals</li>
               <li>
-                Our Chai is made of Mineral Water, Rich Milk, Premium Chai Patti
-                (Tea Leaf) with some Great Spices & natural Ingredients like
-                Ginger, Cardamom, Dal-chini, Lavang etc.
+                No worries of safety and security of food, we take care of all.
               </li>
-              <li>
-                By serving Chai in Kulhad, We provide your drink Desi Touch!!
-              </li>
-              <li>
-                We use Sulfurless Sugar, which keeps your body away from harmful
-                So2.
-              </li>
-              <a href='#' className='btn'>
+              <LinkS
+                smooth={true}
+                duration={800}
+                spy={true}
+                exact='true'
+                offset={-80}
+                to='menu'
+                className='btn'
+              >
                 Check Our Menu
-              </a>
+              </LinkS>
             </div>
             <div className='about-img'>
               <div className='img-box' data-aos='fade-left'>
-                <h2>Without 'chai' life's incomplete</h2>
-                <img
-                  src='https://pipingpotcurry.com/wp-content/uploads/2019/05/How-to-make-Masala-Chai-Piping-Pot-Curry-500x375.jpg'
-                  alt=''
-                  className='about img'
-                />
+                <h2>Without 'Food' life's incomplete</h2>
+                <img src={img} className='about img' />
               </div>
             </div>
           </div>

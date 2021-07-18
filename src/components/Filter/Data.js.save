@@ -2,33 +2,33 @@ export default [
   {
     id: 1,
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBt6riHHncuOW0yL6VyR5yWpnjV6XX7k0Duxnnz5THoT12vdoOh8A1-o2Ejw3toDyVTu4&usqp=CAU",
-    title: "saoji chicken",
+      "https://im.whatshot.in/img/2019/Sep/shutterstock-675084019-1-cropped-1567681752.jpg",
+    title: "special chai",
     category: "lunch",
-    price: "249/-",
+    price: "10/-",
   },
   {
     id: 2,
     image:
-      "https://static.toiimg.com/thumb/54308405.cms?imgsize=510571&width=800&height=800",
-    title: "chicken biryani",
+      "https://s3.ap-south-1.amazonaws.com/mumbai.urbanpiper.com/media/bizmedia/2020/02/27/lemon_chai_RESIZED_RESIZED_RESIZED.jpg",
+    title: "lemon chai",
     category: "lunch",
-    price: "149/-",
+    price: "8/-",
   },
   {
     id: 3,
-    image: "https://ijustlovefood.com/wp-content/uploads/2018/09/test.jpg",
-    title: "mutton saoji",
+    image: "http://www.ndtv.com/cooks/images/instant-coffee_med.jpg",
+    title: "hot coffee",
     category: "lunch",
-    price: "299/-",
+    price: "20/-",
   },
   {
     id: 4,
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfFHZG8WVPP63YgawykSfWVGvJ7cTIt9WzRxWjBLXzVUUkOf4x65AfcvOW-J82MK8Cu5Q&usqp=CAU",
-    title: "paneer butter masala",
+      "https://mytastycurry.com/wp-content/uploads/2017/04/cold-coffee-recipe-best.jpg",
+    title: "cold coffee",
     category: "lunch",
-    price: "159/-",
+    price: "30/-",
   },
   {
     id: 5,
@@ -73,3 +73,4 @@ export default [
     category: "special",
   },
 ];
+

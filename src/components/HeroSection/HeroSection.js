@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import "./HeroSection.css";
 import { Link as LinkS } from "react-scroll";
 import Aos from "aos";
+import img from "../../images/home.jpg";
 import "aos/dist/aos.css";
 
 function HeroSection() {
@@ -11,17 +12,14 @@ function HeroSection() {
   return (
     <>
       <section className='home-section' id='home'>
-        <img
-          src='https://image.freepik.com/free-vector/dark-abstract-background-texture-with-diagonal-lines_43969-660.jpg'
-          className='home-bg'
-        />
+        <img src={img} className='home-bg' />
         <div className='container'>
           <div className='row min-vh-100'>
             <div className='home-text' data-aos='fade-up'>
-              <h1>Chai Villa</h1>
+              <h1>Delis House</h1>
               <p>
-                we serve hygenic & hand made chai in best quality mobile
-                containers.
+                we serve hygenic & hand made food in best quality to your
+                doorsteps.
               </p>
               <LinkS
                 smooth={true}
